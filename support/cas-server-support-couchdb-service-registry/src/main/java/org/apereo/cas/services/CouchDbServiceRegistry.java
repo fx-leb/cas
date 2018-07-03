@@ -22,7 +22,6 @@ import java.util.stream.Collectors;
 public class CouchDbServiceRegistry extends AbstractServiceRegistry {
 
     private final RegisteredServiceCouchDbRepository dbClient;
-
     private final int conflictRetries;
 
     @Override
